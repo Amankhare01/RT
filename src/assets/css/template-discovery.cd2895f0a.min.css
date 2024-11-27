@@ -3945,7 +3945,8 @@ figcaption {
   max-width: 44.375rem;
 }
 .navbar_logo {
-  width: 13.5rem;
+  width: 5.5rem;
+  border-radius: 60%;
 }
 .home-header_graphics {
   grid-column-gap: 0px;
@@ -4692,7 +4693,8 @@ figcaption {
   display: flex;
 }
 .footer_logo {
-  width: 8rem;
+  width: 4rem;
+  border-radius: 30px;
 }
 .about-team_image {
   aspect-ratio: 1/1.2;
@@ -6491,7 +6493,7 @@ figcaption {
     max-width: 20rem;
   }
   .navbar_logo {
-    width: 10rem;
+    width: 4rem;
   }
   .home-about_wrapper {
     height: 2.5rem;

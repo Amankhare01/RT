@@ -64,12 +64,6 @@
       rel="apple-touch-icon"
     />
     <!-- code to improve the font quality -->
-    <style>
-      * {
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-      }
-    </style>
   </head>
   <body>
     <div class="page-wrapper">
@@ -163,7 +157,8 @@
                         ><a
                           data-w-id="b1c85c09-d450-5b1a-bd42-dd47efd41e8b"
                           href="/about/2"
-                          class="navbar_link w-inline-block"
+                          aria-current="page"
+                          class="navbar_link w-inline-block w--current"
                           ><div class="navbar_text white">About 2</div>
                           <img
                             src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66ec93289d1fa0266a0fe247_doodle-1.svg"
@@ -197,8 +192,7 @@
                   ><a
                     data-w-id="b1c85c09-d450-5b1a-bd42-dd47efd41e97"
                     href="/contact"
-                    aria-current="page"
-                    class="navbar_link w-inline-block w--current"
+                    class="navbar_link w-inline-block"
                     ><div class="navbar_text">Contact</div>
                     <img
                       src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66ec8e16f271366244f120e2_doodle-2.svg"
@@ -718,8 +712,7 @@
                 <a
                   data-w-id="b1c85c09-d450-5b1a-bd42-dd47efd41eae"
                   href="/contact"
-                  aria-current="page"
-                  class="button is-small w-inline-block w--current"
+                  class="button is-small w-inline-block"
                   ><div class="button_text">Book a visit</div>
                   <div class="button_hover"></div
                 ></a>
@@ -738,134 +731,553 @@
         </div>
       </nav>
       <div class="main-wrapper">
-        <section class="section_contact">
+        <header class="section_about-header">
+          <div class="padding-section-large"></div>
           <div class="padding-global">
-            <div class="container-large">
-              <div class="contact_component">
-                <div class="contact_content">
-                  <div class="contact_content-in">
-                    <h1 class="heading-style-h2">Book a visit</h1>
-                    <div class="contact_form-block w-form">
-                      <form
-                        id="wf-form-Contact-form"
-                        name="wf-form-Contact-form"
-                        data-name="Contact form"
-                        method="get"
-                        class="contact_form"
-                        data-wf-page-id="66f2e05383d0f669f37c40a1"
-                        data-wf-element-id="78f28ae9-2094-dc3d-3dbd-a7254fac8b25"
-                      >
-                        <div class="contact_fields">
-                          <div class="contact_field-wrap">
-                            <label for="Name">Name</label
-                            ><input
-                              class="form_field w-input"
-                              maxlength="256"
-                              name="Name"
-                              data-name="Name"
-                              placeholder=""
-                              type="text"
-                              id="Name"
-                              required=""
-                            />
-                          </div>
-                          <div class="contact_field-wrap">
-                            <label for="Phone">Phone</label
-                            ><input
-                              class="form_field w-input"
-                              maxlength="256"
-                              name="Phone"
-                              data-name="Phone"
-                              placeholder=""
-                              type="tel"
-                              id="Phone"
-                              required=""
-                            />
-                          </div>
-                          <div class="contact_field-wrap">
-                            <label for="Email">Email address</label
-                            ><input
-                              class="form_field w-input"
-                              maxlength="256"
-                              name="Email"
-                              data-name="Email"
-                              placeholder=""
-                              type="email"
-                              id="Email"
-                              required=""
-                            />
-                          </div>
-                          <div class="contact_field-wrap">
-                            <label for="Message">Message</label
-                            ><textarea
-                              id="Message"
-                              name="Message"
-                              maxlength="5000"
-                              data-name="Message"
-                              placeholder=""
-                              required=""
-                              class="form_field message w-input"
-                            ></textarea>
-                          </div>
-                          <div>
-                            <input
-                              type="submit"
-                              data-wait="Please wait..."
-                              class="button form-hover w-button"
-                              value="Book a visit"
-                            />
-                          </div>
-                        </div>
-                      </form>
-                      <div class="contact_form-success w-form-done">
-                        <div class="heading-style-h6">Submission received</div>
-                        <div class="spacer-xsmall"></div>
-                        <div>
-                          We will get back as soon as possible through Email.
-                        </div>
-                      </div>
-                      <div class="error-message w-form-fail">
-                        <div>
-                          Oops! Something went wrong while submitting the form.
-                        </div>
-                      </div>
-                    </div>
+            <div class="container-xxsmall">
+              <div class="about-header_component">
+                <div class="text-style-label-2">About us</div>
+                <div class="spacer-medium"></div>
+                <div class="text-align-center">
+                  <h2 class="heading-style-h2">What make us the best choice</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="spacer-huge"></div>
+          <div class="about-header_images-wrapper">
+            <div
+              style="
+                -webkit-transform: translate3d(0%, 0, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0%, 0, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0)
+                  rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0)
+                  rotateY(0) rotateZ(0) skew(0, 0);
+              "
+              class="about-header_images-wrap"
+            >
+              <img
+                src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f558a45fbbd4a944b849da_Mask%20group.webp"
+                loading="eager"
+                sizes="(max-width: 767px) 128px, (max-width: 991px) 208px, 416px"
+                srcset="
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f558a45fbbd4a944b849da_Mask%20group-p-500.webp   500w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f558a45fbbd4a944b849da_Mask%20group-p-800.webp   800w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f558a45fbbd4a944b849da_Mask%20group-p-1080.webp 1080w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f558a45fbbd4a944b849da_Mask%20group.webp        1132w
+                "
+                alt="A woman with red hair and a green shirt."
+                class="about-header_image"
+              /><img
+                src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5592705cc216a7af40c84_Mask%20group-1.webp"
+                loading="eager"
+                sizes="(max-width: 767px) 115.1875px, (max-width: 991px) 187.1875px, 374.390625px"
+                srcset="
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5592705cc216a7af40c84_Mask%20group-1-p-500.webp   500w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5592705cc216a7af40c84_Mask%20group-1-p-800.webp   800w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5592705cc216a7af40c84_Mask%20group-1-p-1080.webp 1080w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5592705cc216a7af40c84_Mask%20group-1.webp        1132w
+                "
+                alt="A young boy with glasses holding a stack of books."
+                class="about-header_image _2"
+              /><img
+                src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559350d64eab610b1147d_Mask%20group-2.webp"
+                loading="eager"
+                sizes="(max-width: 767px) 211.78125px, (max-width: 991px) 344.15625px, 688.34375px"
+                srcset="
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559350d64eab610b1147d_Mask%20group-2-p-500.webp   500w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559350d64eab610b1147d_Mask%20group-2-p-800.webp   800w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559350d64eab610b1147d_Mask%20group-2-p-1080.webp 1080w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559350d64eab610b1147d_Mask%20group-2-p-1600.webp 1600w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559350d64eab610b1147d_Mask%20group-2.webp        1800w
+                "
+                alt="A young girl with long hair wearing a yellow jacket."
+                class="about-header_image _3"
+              /><img
+                src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5594443c968a60ab5fba8_Mask%20group-3.webp"
+                loading="eager"
+                sizes="(max-width: 767px) 125.4375px, (max-width: 991px) 203.828125px, 407.671875px"
+                srcset="
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5594443c968a60ab5fba8_Mask%20group-3-p-500.webp  500w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5594443c968a60ab5fba8_Mask%20group-3-p-800.webp  800w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5594443c968a60ab5fba8_Mask%20group-3.webp       1002w
+                "
+                alt="A young girl is looking at a book."
+                class="about-header_image _4"
+              /><img
+                src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559507a5800f8a916c172_Mask%20group-4.webp"
+                loading="eager"
+                sizes="(max-width: 767px) 123.578125px, (max-width: 991px) 200.8125px, 401.640625px"
+                srcset="
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559507a5800f8a916c172_Mask%20group-4-p-500.webp 500w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559507a5800f8a916c172_Mask%20group-4-p-800.webp 800w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559507a5800f8a916c172_Mask%20group-4.webp       994w
+                "
+                alt="A woman wearing glasses and smiling for the camera."
+                class="about-header_image _5"
+              />
+            </div>
+            <div
+              style="
+                -webkit-transform: translate3d(0%, 0, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0%, 0, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0)
+                  rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0)
+                  rotateY(0) rotateZ(0) skew(0, 0);
+              "
+              class="about-header_images-wrap"
+            >
+              <img
+                src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f558a45fbbd4a944b849da_Mask%20group.webp"
+                loading="eager"
+                sizes="(max-width: 767px) 128px, (max-width: 991px) 208px, 416px"
+                srcset="
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f558a45fbbd4a944b849da_Mask%20group-p-500.webp   500w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f558a45fbbd4a944b849da_Mask%20group-p-800.webp   800w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f558a45fbbd4a944b849da_Mask%20group-p-1080.webp 1080w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f558a45fbbd4a944b849da_Mask%20group.webp        1132w
+                "
+                alt="A woman with red hair and a green shirt."
+                class="about-header_image"
+              /><img
+                src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5592705cc216a7af40c84_Mask%20group-1.webp"
+                loading="eager"
+                sizes="(max-width: 767px) 115.1875px, (max-width: 991px) 187.1875px, 374.390625px"
+                srcset="
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5592705cc216a7af40c84_Mask%20group-1-p-500.webp   500w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5592705cc216a7af40c84_Mask%20group-1-p-800.webp   800w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5592705cc216a7af40c84_Mask%20group-1-p-1080.webp 1080w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5592705cc216a7af40c84_Mask%20group-1.webp        1132w
+                "
+                alt="A young boy with glasses holding a stack of books."
+                class="about-header_image _2"
+              /><img
+                src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559350d64eab610b1147d_Mask%20group-2.webp"
+                loading="eager"
+                sizes="(max-width: 767px) 211.78125px, (max-width: 991px) 344.15625px, 688.34375px"
+                srcset="
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559350d64eab610b1147d_Mask%20group-2-p-500.webp   500w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559350d64eab610b1147d_Mask%20group-2-p-800.webp   800w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559350d64eab610b1147d_Mask%20group-2-p-1080.webp 1080w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559350d64eab610b1147d_Mask%20group-2-p-1600.webp 1600w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559350d64eab610b1147d_Mask%20group-2.webp        1800w
+                "
+                alt="A young girl with long hair wearing a yellow jacket."
+                class="about-header_image _3"
+              /><img
+                src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5594443c968a60ab5fba8_Mask%20group-3.webp"
+                loading="eager"
+                sizes="(max-width: 767px) 125.4375px, (max-width: 991px) 203.828125px, 407.671875px"
+                srcset="
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5594443c968a60ab5fba8_Mask%20group-3-p-500.webp  500w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5594443c968a60ab5fba8_Mask%20group-3-p-800.webp  800w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5594443c968a60ab5fba8_Mask%20group-3.webp       1002w
+                "
+                alt="A young girl is looking at a book."
+                class="about-header_image _4"
+              /><img
+                src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559507a5800f8a916c172_Mask%20group-4.webp"
+                loading="eager"
+                sizes="(max-width: 767px) 123.578125px, (max-width: 991px) 200.8125px, 401.640625px"
+                srcset="
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559507a5800f8a916c172_Mask%20group-4-p-500.webp 500w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559507a5800f8a916c172_Mask%20group-4-p-800.webp 800w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559507a5800f8a916c172_Mask%20group-4.webp       994w
+                "
+                alt="A woman wearing glasses and smiling for the camera."
+                class="about-header_image _5"
+              />
+            </div>
+            <div
+              style="
+                -webkit-transform: translate3d(0%, 0, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0%, 0, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0)
+                  rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0)
+                  rotateY(0) rotateZ(0) skew(0, 0);
+              "
+              class="about-header_images-wrap"
+            >
+              <img
+                src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f558a45fbbd4a944b849da_Mask%20group.webp"
+                loading="eager"
+                sizes="(max-width: 767px) 128px, (max-width: 991px) 208px, 416px"
+                srcset="
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f558a45fbbd4a944b849da_Mask%20group-p-500.webp   500w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f558a45fbbd4a944b849da_Mask%20group-p-800.webp   800w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f558a45fbbd4a944b849da_Mask%20group-p-1080.webp 1080w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f558a45fbbd4a944b849da_Mask%20group.webp        1132w
+                "
+                alt="A woman with red hair and a green shirt."
+                class="about-header_image"
+              /><img
+                src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5592705cc216a7af40c84_Mask%20group-1.webp"
+                loading="eager"
+                sizes="(max-width: 767px) 115.1875px, (max-width: 991px) 187.1875px, 374.390625px"
+                srcset="
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5592705cc216a7af40c84_Mask%20group-1-p-500.webp   500w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5592705cc216a7af40c84_Mask%20group-1-p-800.webp   800w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5592705cc216a7af40c84_Mask%20group-1-p-1080.webp 1080w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5592705cc216a7af40c84_Mask%20group-1.webp        1132w
+                "
+                alt="A young boy with glasses holding a stack of books."
+                class="about-header_image _2"
+              /><img
+                src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559350d64eab610b1147d_Mask%20group-2.webp"
+                loading="eager"
+                sizes="(max-width: 767px) 211.78125px, (max-width: 991px) 344.15625px, 688.34375px"
+                srcset="
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559350d64eab610b1147d_Mask%20group-2-p-500.webp   500w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559350d64eab610b1147d_Mask%20group-2-p-800.webp   800w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559350d64eab610b1147d_Mask%20group-2-p-1080.webp 1080w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559350d64eab610b1147d_Mask%20group-2-p-1600.webp 1600w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559350d64eab610b1147d_Mask%20group-2.webp        1800w
+                "
+                alt="A young girl with long hair wearing a yellow jacket."
+                class="about-header_image _3"
+              /><img
+                src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5594443c968a60ab5fba8_Mask%20group-3.webp"
+                loading="eager"
+                sizes="(max-width: 767px) 125.4375px, (max-width: 991px) 203.828125px, 407.671875px"
+                srcset="
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5594443c968a60ab5fba8_Mask%20group-3-p-500.webp  500w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5594443c968a60ab5fba8_Mask%20group-3-p-800.webp  800w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f5594443c968a60ab5fba8_Mask%20group-3.webp       1002w
+                "
+                alt="A young girl is looking at a book."
+                class="about-header_image _4"
+              /><img
+                src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559507a5800f8a916c172_Mask%20group-4.webp"
+                loading="eager"
+                sizes="(max-width: 767px) 123.578125px, (max-width: 991px) 200.8125px, 401.640625px"
+                srcset="
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559507a5800f8a916c172_Mask%20group-4-p-500.webp 500w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559507a5800f8a916c172_Mask%20group-4-p-800.webp 800w,
+                  https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f559507a5800f8a916c172_Mask%20group-4.webp       994w
+                "
+                alt="A woman wearing glasses and smiling for the camera."
+                class="about-header_image _5"
+              />
+            </div>
+          </div>
+          <div class="padding-section-large"></div>
+        </header>
+        <section class="section_about-intro">
+          <div class="padding-section-large hide-tablet"></div>
+          <div class="padding-global">
+            <div class="container-medium">
+              <div class="about-intro_component">
+                <div class="about-intro_content">
+                  <div class="about-intro_content-in">
+                    <h2 class="heading-style-h4">
+                      Building a School Where Kids Learn, Play, and Grow
+                    </h2>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse varius enim in eros elementum tristique. Duis
+                      cursus, mi quis viverra ornare, eros dolor interdum nulla,
+                      ut commodo diam libero vitae erat.
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse varius enim in eros elementum tristique. Duis
+                      cursus, mi quis viverra ornare.
+                    </p>
                   </div>
                 </div>
-                <div class="contact_image-wrap">
+              </div>
+            </div>
+          </div>
+          <div class="padding-section-large is-tablet-smaller"></div>
+          <div class="about-intro_image-wrap">
+            <img
+              src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f55d39bba92e01fddbbae9_pexels-mikebirdy-143970.webp"
+              loading="lazy"
+              sizes="(max-width: 991px) 100vw, 50vw"
+              srcset="
+                https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f55d39bba92e01fddbbae9_pexels-mikebirdy-143970-p-500.webp   500w,
+                https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f55d39bba92e01fddbbae9_pexels-mikebirdy-143970-p-800.webp   800w,
+                https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f55d39bba92e01fddbbae9_pexels-mikebirdy-143970-p-1080.webp 1080w,
+                https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f55d39bba92e01fddbbae9_pexels-mikebirdy-143970-p-1600.webp 1600w,
+                https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f55d39bba92e01fddbbae9_pexels-mikebirdy-143970.webp        1920w
+              "
+              alt="A red and blue stair case next to a window."
+              class="about-intro_image"
+            />
+          </div>
+        </section>
+        <section class="section_about-mission">
+          <div class="padding-section-large"></div>
+          <div class="padding-global">
+            <div class="container-xsmall">
+              <div class="about-mission-2_component">
+                <div class="about-mission-2_content">
+                  <div class="about-mission-2_head">
+                    <div class="text-style-label-2">Our mission</div>
+                    <div class="text-align-center is-mobile-left">
+                      <h2 class="heading-style-h3">
+                        Nurturing curiosity and building futures
+                      </h2>
+                    </div>
+                  </div>
+                  <div class="about-mission-2_text-wrap">
+                    <p class="text-align-center is-mobile-left">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse varius enim in eros elementum tristique. Duis
+                      cursus, mi quis viverra ornare, eros dolor interdum nulla,
+                      ut commodo diam libero vitae erat. Aenean faucibus nibh et
+                      justo cursus id rutrum lorem imperdiet.
+                    </p>
+                  </div>
+                </div>
+                <div class="about-mission-2_image-wrap">
                   <img
-                    src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f2eb4c124eb4c7bc8d61b4_portrait-teacher-female-holding-book.webp"
-                    loading="eager"
-                    sizes="(max-width: 479px) 72vw, (max-width: 767px) 47vw, (max-width: 991px) 46vw, 38vw"
+                    src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f55edf21aae2bda1e6ed72_mission.webp"
+                    loading="lazy"
+                    sizes="(max-width: 479px) 90vw, (max-width: 767px) 94vw, (max-width: 991px) 93vw, 94vw"
                     srcset="
-                      https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f2eb4c124eb4c7bc8d61b4_portrait-teacher-female-holding-book-p-500.webp   500w,
-                      https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f2eb4c124eb4c7bc8d61b4_portrait-teacher-female-holding-book-p-800.webp   800w,
-                      https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f2eb4c124eb4c7bc8d61b4_portrait-teacher-female-holding-book-p-1080.webp 1080w,
-                      https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f2eb4c124eb4c7bc8d61b4_portrait-teacher-female-holding-book.webp        1200w
+                      https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f55edf21aae2bda1e6ed72_mission-p-500.webp   500w,
+                      https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f55edf21aae2bda1e6ed72_mission-p-800.webp   800w,
+                      https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f55edf21aae2bda1e6ed72_mission-p-1080.webp 1080w,
+                      https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f55edf21aae2bda1e6ed72_mission-p-1600.webp 1600w,
+                      https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f55edf21aae2bda1e6ed72_mission.webp        1683w
                     "
-                    alt="A woman holding a pen and a book."
-                    class="contact_image"
+                    alt="A woman with glasses holding a book and smiling."
+                    class="about-mission-2_image"
                   /><img
-                    src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66ed7ba8ad14bc5af9a37ec7_bg-graphic-1.svg"
-                    loading="eager"
-                    style="
-                      -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1)
-                        rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
-                      -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1)
-                        rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
-                      -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1)
-                        rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
-                      transform: translate3d(0, 0, 0) scale3d(1, 1, 1)
-                        rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
-                    "
+                    src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f1790b4ac33a6c33cd0bfa_bg-graphic-2.svg"
+                    loading="lazy"
                     alt=""
-                    class="contact_bg-shape"
+                    class="about-mission-2_graphic"
                   />
                 </div>
               </div>
             </div>
           </div>
-          <div class="padding-section-small"></div>
+        </section>
+        <section class="section_about-values">
+          <div class="padding-section-large"></div>
+          <div class="padding-global">
+            <div class="container-xsmall">
+              <div class="about-mission-2_component">
+                <div class="about-mission-2_content">
+                  <div class="about-mission-2_head">
+                    <div class="text-style-label-2">Our values</div>
+                    <div class="text-align-center is-mobile-left">
+                      <h2 class="heading-style-h3">
+                        Guiding every child’s growth with integrity
+                      </h2>
+                    </div>
+                  </div>
+                  <div class="about-mission-2_text-wrap">
+                    <p class="text-align-center is-mobile-left">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse varius enim in eros elementum tristique. Duis
+                      cursus, mi quis viverra ornare, eros dolor interdum nulla,
+                      ut commodo diam libero vitae erat. Aenean faucibus nibh et
+                      justo cursus id rutrum lorem imperdiet.
+                    </p>
+                  </div>
+                </div>
+                <div class="about-mission-2_image-wrap">
+                  <img
+                    src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f55f699de48381ecf677e2_vision.webp"
+                    loading="lazy"
+                    sizes="(max-width: 479px) 90vw, (max-width: 767px) 94vw, (max-width: 991px) 93vw, 94vw"
+                    srcset="
+                      https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f55f699de48381ecf677e2_vision-p-500.webp   500w,
+                      https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f55f699de48381ecf677e2_vision-p-800.webp   800w,
+                      https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f55f699de48381ecf677e2_vision-p-1080.webp 1080w,
+                      https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f55f699de48381ecf677e2_vision.webp        1683w
+                    "
+                    alt="A young boy sitting at a desk with a book and pencils."
+                    class="about-mission-2_image"
+                  /><img
+                    src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/66f2c344372972c0c1080c59_line-bg.svg"
+                    loading="lazy"
+                    alt=""
+                    class="about-values_bg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section_about-team">
+          <div class="padding-section-xlarge"></div>
+          <div class="padding-global">
+            <div class="container-medium">
+              <div class="about-team_component">
+                <h2>Our team</h2>
+                <div class="spacer-xxlarge"></div>
+                <div class="about-team_wrapper w-dyn-list">
+                  <div role="list" class="about-team_list w-dyn-items">
+                    <div role="listitem" class="about-team_item w-dyn-item">
+                      <div
+                        id="w-node-_2f8b125d-5918-3c46-f0db-0f72c29a8c09-c29a8bfe"
+                        class="about-team_block"
+                      >
+                        <a
+                          aria-label="link to team member page"
+                          href="/team/emma-white"
+                          class="about-team_image-wrap w-inline-block"
+                          ><img
+                            src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793734/66f411ce7d1cea06ebfce680_prof3.png"
+                            loading="lazy"
+                            alt=""
+                            sizes="(max-width: 479px) 90vw, (max-width: 767px) 30vw, 29vw"
+                            srcset="
+                              https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793734/66f411ce7d1cea06ebfce680_prof3-p-500.png  500w,
+                              https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793734/66f411ce7d1cea06ebfce680_prof3-p-800.png  800w,
+                              https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793734/66f411ce7d1cea06ebfce680_prof3.png       1000w
+                            "
+                            class="about-team_image"
+                        /></a>
+                        <div class="about-team_content">
+                          <a
+                            aria-label="link to team member page"
+                            href="/team/emma-white"
+                            class="about-team_texts w-inline-block"
+                            ><h3 class="heading-style-h6">Emma White</h3>
+                            <div class="about-team_title">Math Teacher</div></a
+                          ><a
+                            aria-label="link to linkedin profile"
+                            href="http://linkedin.com"
+                            class="member_linkedin w-inline-block"
+                            ><div class="about-team_linkedin w-embed">
+                              <svg
+                                width="100%"
+                                height="100%"
+                                viewBox="0 0 48 48"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4063 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4063 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39063 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39063 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031V40.9031Z"
+                                  fill="currentColor"
+                                />
+                              </svg></div
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div role="listitem" class="about-team_item w-dyn-item">
+                      <div
+                        id="w-node-_2f8b125d-5918-3c46-f0db-0f72c29a8c09-c29a8bfe"
+                        class="about-team_block"
+                      >
+                        <a
+                          aria-label="link to team member page"
+                          href="/team/john-kim"
+                          class="about-team_image-wrap w-inline-block"
+                          ><img
+                            src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793734/66f4117acb36f7b211296b44_prof2.png"
+                            loading="lazy"
+                            alt=""
+                            sizes="(max-width: 479px) 90vw, (max-width: 767px) 30vw, 29vw"
+                            srcset="
+                              https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793734/66f4117acb36f7b211296b44_prof2-p-500.png  500w,
+                              https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793734/66f4117acb36f7b211296b44_prof2-p-800.png  800w,
+                              https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793734/66f4117acb36f7b211296b44_prof2.png       1000w
+                            "
+                            class="about-team_image"
+                        /></a>
+                        <div class="about-team_content">
+                          <a
+                            aria-label="link to team member page"
+                            href="/team/john-kim"
+                            class="about-team_texts w-inline-block"
+                            ><h3 class="heading-style-h6">John Kim</h3>
+                            <div class="about-team_title">
+                              History Teacher
+                            </div></a
+                          ><a
+                            aria-label="link to linkedin profile"
+                            href="http://linkedin.com"
+                            class="member_linkedin w-inline-block"
+                            ><div class="about-team_linkedin w-embed">
+                              <svg
+                                width="100%"
+                                height="100%"
+                                viewBox="0 0 48 48"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4063 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4063 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39063 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39063 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031V40.9031Z"
+                                  fill="currentColor"
+                                />
+                              </svg></div
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div role="listitem" class="about-team_item w-dyn-item">
+                      <div
+                        id="w-node-_2f8b125d-5918-3c46-f0db-0f72c29a8c09-c29a8bfe"
+                        class="about-team_block"
+                      >
+                        <a
+                          aria-label="link to team member page"
+                          href="/team/aline-silva"
+                          class="about-team_image-wrap w-inline-block"
+                          ><img
+                            src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793734/66f41156c914d9e839d99a77_prof1.png"
+                            loading="lazy"
+                            alt=""
+                            sizes="(max-width: 479px) 90vw, (max-width: 767px) 30vw, 29vw"
+                            srcset="
+                              https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793734/66f41156c914d9e839d99a77_prof1-p-500.png  500w,
+                              https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793734/66f41156c914d9e839d99a77_prof1-p-800.png  800w,
+                              https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793734/66f41156c914d9e839d99a77_prof1.png       1000w
+                            "
+                            class="about-team_image"
+                        /></a>
+                        <div class="about-team_content">
+                          <a
+                            aria-label="link to team member page"
+                            href="/team/aline-silva"
+                            class="about-team_texts w-inline-block"
+                            ><h3 class="heading-style-h6">Aline Silva</h3>
+                            <div class="about-team_title">
+                              English Teacher
+                            </div></a
+                          ><a
+                            aria-label="link to linkedin profile"
+                            href="https://www.linkedin.com/feed/"
+                            class="member_linkedin w-inline-block"
+                            ><div class="about-team_linkedin w-embed">
+                              <svg
+                                width="100%"
+                                height="100%"
+                                viewBox="0 0 48 48"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4063 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4063 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39063 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39063 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031V40.9031Z"
+                                  fill="currentColor"
+                                />
+                              </svg></div
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="padding-section-large"></div>
         </section>
       </div>
       <footer class="footer">
@@ -924,7 +1336,8 @@
                     <a
                       data-w-id="77cb92d9-f7c8-69dc-2f2d-5657a6293418"
                       href="/about/2"
-                      class="button is-xsmall is-grey w-inline-block"
+                      aria-current="page"
+                      class="button is-xsmall is-grey w-inline-block w--current"
                       ><div class="button_text">About 2</div>
                       <div class="button_hover grey"></div
                     ></a>
@@ -992,8 +1405,7 @@
                         <a
                           data-w-id="77cb92d9-f7c8-69dc-2f2d-5657a629343e"
                           href="/contact"
-                          aria-current="page"
-                          class="button is-xsmall is-grey w-inline-block w--current"
+                          class="button is-xsmall is-grey w-inline-block"
                           ><div class="button_text">Contact</div>
                           <div class="button_hover grey"></div
                         ></a>
@@ -1198,7 +1610,7 @@
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/js/template-Discovery.71cef01ef.js"
+      src="https://cdn.prod.website-files.com/66ec3a9528bbcbcda2793728/js/template-discovery.71cef01ef.js"
       type="text/javascript"
     ></script>
   </body>
