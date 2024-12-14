@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  /* background-image: url('/assets/hero.png'); */
 }
 article,
 aside,
@@ -4337,7 +4338,7 @@ figcaption {
   flex-flow: column;
   justify-content: flex-end;
   align-items: center;
-  width: 90%;
+  width: 100%;
   display: flex;
   position: relative;
 }
@@ -6785,7 +6786,7 @@ figcaption {
     inset: auto;
   }
   .home-goal_image-wrap {
-    width: 100%;
+    width: 120%;
   }
   .blog-list_head,
   .blog-list_main {
