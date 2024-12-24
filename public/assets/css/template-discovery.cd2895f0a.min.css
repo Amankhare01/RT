@@ -4383,7 +4383,7 @@ figcaption {
   display: flex;
 }
 .blog-list_block:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .blog-list_main {
   grid-column-gap: 3rem;
