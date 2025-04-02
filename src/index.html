@@ -47,102 +47,101 @@
       type="text/css"
     />
     <style>
-    .body123 {
-  font-family: Arial, sans-serif;
-  background-color: #9fdbcd;
-  margin: 0;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-    .leadership-card-container {
-      display: flexbox; 
-      gap: 10px;
-    }
-    
-    .leadership-card {
-      background-color: #ffffff;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      width: 300px;
-      text-align: center;
-      padding: 20px;
-    }
-    
-    .leadership-card-image {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      margin-bottom: 15px;
-    }
-    
-    .leadership-card-title {
-      font-size: 1.5rem;
-      color: #333;
-      margin: 10px 0;
-    }
-    
-    .leadership-card-subtitle {
-      font-size: 1rem;
-      color: #777;
-      margin-bottom: 20px;
-    }
-    
-    .leadership-info-btn {
-      padding: 10px 15px;
-      border: none;
-      background-color: #007BFF;
-      color: #fff;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-    
-    .leadership-info-btn:hover {
-      background-color: #0056b3;
-    }
-    
-      @media (min-width: 992px) {
-        html.w-mod-js:not(.w-mod-ix)
-          [data-w-id="597bbbc3-560a-3ff2-a28f-83f4723e58df"] {
-          -webkit-transform: translate3d(0, 80%, 0) scale3d(1, 1, 1) rotateX(0)
-            rotateY(0) rotateZ(0) skew(0, 0);
-          -moz-transform: translate3d(0, 80%, 0) scale3d(1, 1, 1) rotateX(0)
-            rotateY(0) rotateZ(0) skew(0, 0);
-          -ms-transform: translate3d(0, 80%, 0) scale3d(1, 1, 1) rotateX(0)
-            rotateY(0) rotateZ(0) skew(0, 0);
-          transform: translate3d(0, 80%, 0) scale3d(1, 1, 1) rotateX(0)
-            rotateY(0) rotateZ(0) skew(0, 0);
-          display: none;
-        }
-        html.w-mod-js:not(.w-mod-ix)
-          [data-w-id="cb17e884-1a21-463f-6a8a-adb50a767ee5"] {
-          display: none;
-          -webkit-transform: translate3d(0, 80%, 0) scale3d(1, 1, 1) rotateX(0)
-            rotateY(0) rotateZ(0) skew(0, 0);
-          -moz-transform: translate3d(0, 80%, 0) scale3d(1, 1, 1) rotateX(0)
-            rotateY(0) rotateZ(0) skew(0, 0);
-          -ms-transform: translate3d(0, 80%, 0) scale3d(1, 1, 1) rotateX(0)
-            rotateY(0) rotateZ(0) skew(0, 0);
-          transform: translate3d(0, 80%, 0) scale3d(1, 1, 1) rotateX(0)
-            rotateY(0) rotateZ(0) skew(0, 0);
-        }
-        html.w-mod-js:not(.w-mod-ix)
-          [data-w-id="0a0d98d2-e9d4-03eb-e4d7-a6dddd50c451"] {
-          display: none;
-          -webkit-transform: translate3d(0, 80%, 0) scale3d(1, 1, 1) rotateX(0)
-            rotateY(0) rotateZ(0) skew(0, 0);
-          -moz-transform: translate3d(0, 80%, 0) scale3d(1, 1, 1) rotateX(0)
-            rotateY(0) rotateZ(0) skew(0, 0);
-          -ms-transform: translate3d(0, 80%, 0) scale3d(1, 1, 1) rotateX(0)
-            rotateY(0) rotateZ(0) skew(0, 0);
-          transform: translate3d(0, 80%, 0) scale3d(1, 1, 1) rotateX(0)
-            rotateY(0) rotateZ(0) skew(0, 0);
-        }
+
+      .card-container {
+        background-color: #7fc0b1a6;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+          justify-content: center;
+          padding: 10px;
       }
-    </style>
+      
+      .card {
+          width: 600px;
+          display: flex;
+          background: black;
+          color: white;
+          padding: 20px;
+          border-radius: 10px;
+          align-items: center;
+          position: relative;
+          overflow: hidden;
+      }
+      
+      .card::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 50%;
+          height: 100%;
+          background: white;
+          clip-path: polygon(100% 0, 0 0, 100% 100%);
+      }
+      
+      .card-content {
+          width: 50%;
+          z-index: 1;
+          padding-left: 20px;
+      }
+      
+      .card h2 {
+          font-size: 24px;
+          font-weight: bold;
+      }
+      
+      .card p {
+          font-size: 14px;
+          margin: 5px 0;
+          color: #fff;
+      }
+      
+      .contact-info {
+          margin-top: 20px;
+      }
+      
+      .contact-info p {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          color: wheat;
+      }
+      
+      .icon {
+          width: 16px;
+          height: 16px;
+      }
+      
+      .profile-img {
+          width: 50%;
+          height: auto;
+          position: relative;
+          z-index: 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      .profile-img img {
+          width: 90%;
+          border-radius: 5px;
+      }
+      
+      @media (max-width: 650px) {
+          .card {
+              flex-direction: column;
+              text-align: center;
+          }
+          .card-content, .profile-img {
+              width: 100%;
+              padding: 10px;
+          }
+          .profile-img img {
+              width: 80%;
+          }
+      }
+  </style>
     <script type="text/javascript">
       !(function (o, c) {
         var n = c.documentElement,
@@ -1141,23 +1140,37 @@
           <div class="padding-section-large"></div>
         </section>
       </div>  
-      <div class="leadership-card-container body123">
-        <!-- Principal Card -->
-        <div class="leadership-card principal-card">
-          <img src="/assets/Ashok chauhan.jpg" alt="Principal Photo" class="leadership-card-image">
-          <h2 class="leadership-card-title">Mr. Ashok Chauhan</h2>
-          <p class="leadership-card-subtitle">Chairman</p>
-          <button class="leadership-info-btn" onclick="showInfo('principal')">More Info</button>
+      <div class="card-container">
+        <div class="card">
+            <div class="card-content">
+                <h2>Mr. Ashoke Chauhan</h2>
+                <p>Chairman</p>
+                <div class="contact-info">
+                    <p><img src="location-icon.png" class="icon" alt=""> Juranpur</p>
+                    <p><img src="email-icon.png" class="icon" alt=""> r.t.conventschool7654@gmail.com</p>
+                    <p><img src="phone-icon.png" class="icon" alt=""> 95651 76673</p>
+                    <p><img src="web-icon.png" class="icon" alt=""> rtconventschool.life</p>
+                </div>
+            </div>
+            <div class="profile-img">
+                <img src="/assets/Ashok chauhan1.png" alt="Angela Doe">
+            </div>
         </div>
-    
-        <!-- Vice Principal Card -->
-      <div class="leadership-card principal-card">
-        <img src="/assets/Kamla_ma'am.png" alt="Vice Principal Photo" class="leadership-card-image">
-        <h2 class="leadership-card-title">Mrs. Kamla Chauhan</h2>
-        <p class="leadership-card-subtitle">Principal</p>
-        <button class="leadership-info-btn" onclick="showInfo('vice-principal')">More Info</button>
-      </div>
-      </div>
+        <div class="card">
+            <div class="card-content">
+                <h2>Mrs. Kamla Chauhan</h2>
+                <p>Principal</p>
+                <div class="contact-info">
+                    <p><img src="location-icon.png" class="icon" alt=""> Ballia</p>
+                    <p><img src="email-icon.png" class="icon" alt=""> r.t.conventschool7654@gmail.com</p>
+                    <p><img src="phone-icon.png" class="icon" alt=""> +0 123 456 789</p>
+                </div>
+            </div>
+            <div class="profile-img">
+                <img src="/assets/kamla chauhan (1).png" alt="Angela Doe">
+            </div>
+        </div>
+    </div>
       <footer class="footer">
         <div class="padding-global">
           <div class="container-xsmall">
